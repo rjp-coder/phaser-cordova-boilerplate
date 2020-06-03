@@ -1,0 +1,10 @@
+
+To generate keys 
+keytool -genkey -v -keystore <keystoreName>.keystore -alias <Keystore AliasName> -keyalg <Key algorithm> -keysize <Key size> -validity <Key Validity in Days>
+E.g.
+keytool -genkey -v -keystore NAME-mobileapps.keystore -alias NAMEmobileapps -keyalg RSA -keysize 2048 -validity 10000
+
+Cordova build cmd:
+
+cordova build android --info --release -- --keystore=C:\Dev\PhaserCordova\platforms\android\release.keystore 
+--storePassword=enteryourpasswordhere --alias=aliasname --password=enteryourpasswordhere

@@ -2,15 +2,26 @@
 
 A simple boilerplate for getting started with Phaser3.js and Cordova.
 
-It is intended to show some Phaser functionality and how it can be built as an apk. 
+It is intended to show some Phaser functionality, how it can be built as an apk, and be developed with modular javaScript. 
 
-Tutorial website:
+Tutorial website for Phaser 3 development:
 https://gamedevacademy.org/?p=6497
+Phaser 3 samples:
+https://phaser.io/examples
+Cordova Documentation:
+https://cordova.apache.org/
 
 Getting started:
 To run the app go to the project directory and open the terminal.
-Type cordova run browser to open it on browser. 
-If you have a mobile emulator, you can also try cordova run android. 
+If you did not download the node modules folder, you can do npm install. 
+Type cordova run browser to open the app on a browser. 
+If you have a mobile emulator (can be configured with Android SDK but need hyper-V enabled on machine), you can also try cordova run android. 
+If you have no emulator you can type cordova build android, copy the app-debug output file to your phone, and see it on your phone. You can also debug the app by connecting your phone to your computer with "enable usb-debugging" developer mode settings enabled and then using chrome browser on your computer, chrome://inspect.
+To add/remove a platform to Cordova you can type cordova platform add/remove <browser|android|ios>
+
+Notes for further improvement:
+
+This only uses the most basic functionality of webpack to bundle js files into one. There is not yet separation of source files and distribution files, the main.js is under the same directory as the other js files. The app is configured for development and there is no separate webpack production config. Minification could improve performance. 
 
 Creating a signed apk:
 

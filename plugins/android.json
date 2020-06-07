@@ -9,22 +9,22 @@
   "installed_plugins": {
     "cordova-android-support-gradle-release": {
       "ANDROID_SUPPORT_VERSION": "27.+",
-      "PACKAGE_NAME": "io.cordova.PhaserCordova"
+      "PACKAGE_NAME": "io.cordova.CordovaPhaser"
     },
     "cordova-plugin-browsersync": {
-      "PACKAGE_NAME": "io.cordova.PhaserCordova"
+      "PACKAGE_NAME": "io.cordova.CordovaPhaser"
     },
     "cordova-plugin-file": {
-      "PACKAGE_NAME": "io.cordova.PhaserCordova"
+      "PACKAGE_NAME": "io.cordova.CordovaPhaser"
     },
     "cordova-plugin-keyboard": {
-      "PACKAGE_NAME": "io.cordova.PhaserCordova"
+      "PACKAGE_NAME": "io.cordova.CordovaPhaser"
     },
     "cordova-plugin-vibration": {
-      "PACKAGE_NAME": "io.cordova.PhaserCordova"
+      "PACKAGE_NAME": "io.cordova.CordovaPhaser"
     },
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "io.cordova.PhaserCordova"
+      "PACKAGE_NAME": "io.cordova.CordovaPhaser"
     }
   },
   "dependent_plugins": {}

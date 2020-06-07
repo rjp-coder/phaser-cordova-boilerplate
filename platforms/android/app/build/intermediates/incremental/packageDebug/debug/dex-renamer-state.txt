@@ -1,4 +1,4 @@
-#Tue Jun 02 22:02:14 CEST 2020
+#Sun Jun 07 02:25:41 CEST 2020
 base.0=C\:\\Dev\\Phaser Cordova Boilerplate\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

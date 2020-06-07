@@ -19,7 +19,7 @@ static initGui(){
     bg:null,
 }
 }
-  static createGui = (levelObj) => {
+  static createGui(levelObj){
     let sc = main.getScene("Level");
     let cw = sc.sys.canvas.width;
     let ch = sc.sys.canvas.height;
@@ -51,7 +51,7 @@ static initGui(){
     }
   }
 
-  static updateGui = (levelObj) => {
+  static updateGui(levelObj){
     let sc = main.getScene();
     levelObj.gui.scoreText.setAlign('center');
     levelObj.gui.livesText.setAlign('right');

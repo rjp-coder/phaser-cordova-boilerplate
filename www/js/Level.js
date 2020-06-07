@@ -58,7 +58,7 @@ class Level extends Phaser.Scene {
     //TODO
   }
 
-  createNewEnemy = (en) => {
+  createNewEnemy(en){
     if (!en) { en = {} };
     let sc = main.getScene();
     if (sc.getAllEnemies().length >= sc.props.MAX_ENEMY_COUNT) return false;

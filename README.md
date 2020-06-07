@@ -12,6 +12,9 @@ https://phaser.io/examples
 https://cordova.apache.org/
 
 ## Getting started:
+First clone the directory or install as zip file. 
+Note that if you git clone with windows there might be a file name length limitation which prevents the node modules from being downloaded. You can work around this by changing your git config on an administrator cmd prompt `git config --system core.longpaths true`
+
 To run the app go to the project directory and open the terminal.
 If you did not download the node modules folder, you can do `npm install`. 
 Type `cordova run browser` to open the app on a browser. 
